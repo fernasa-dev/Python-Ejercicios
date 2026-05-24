@@ -1,6 +1,6 @@
 # Empezamos Día 2 el 23 de Mayo 2026 #
 
-# Control de flujo: condicionales_
+# Control de flujo: condicionales
 # Utilizaremos el mismo programa de clasificación de tickets de soporte,
 # pero mejorado para manejar entradas no válidas 
 # y para ser más amigable con el usuario.
