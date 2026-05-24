@@ -67,3 +67,23 @@ porcentaje = (diferencia / sueldo_hoy) * 100
 print(f"\nOk {nombre_usuario}, necesitas aumentar tu sueldo un {porcentaje:.1f}%")
 print(f"Eso es ${diferencia:.0f} pesos más al mes.")
 print(f"En un año serían ${diferencia * 12:.0f} pesos extra.")
+
+# Empezamos Día 2 el 23 de Mayo 2026 #
+
+# Control de flujo: condicionales
+print(" --- CLASIFICADOR DE TICKETS DE SOPORTE --- ")
+
+prioridad = input( "Ingresa la prioridad del ticket (alta, media, baja): ")
+
+if prioridad == "alta":
+    print("🔴 Ticket crítico - escalar inmediatamente.")
+
+elif prioridad == "media":
+    print("🟠 Ticket moderado - atender en las próximas 3 horas.")
+
+elif prioridad == "baja":
+    print("🟢 Ticket menor - atender antes de fin de día.")
+
+else:
+    print("⚪ Prioridad no reconocida - ingresa alta, media o baja.")
+
